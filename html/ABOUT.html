@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Dhyno | Sistem Informasi</title>
+    <style>
+        /* ====== Desain Modern & Konsisten ====== */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #e2e8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #2563eb, #1e40af);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            border-bottom: 4px solid #1d4ed8;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.3em;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #1e293b;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            padding: 35px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        .biodata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .biodata img {
+            border-radius: 12px;
+            width: 280px;
+            height: auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.4s ease;
+        }
+
+        .biodata img:hover {
+            transform: scale(1.05);
+        }
+
+        .info {
+            flex: 1;
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .info p {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-left: 4px solid #38bdf8;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            margin-top: 60px;
+            border-top: 3px solid #2563eb;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 700px) {
+            .biodata {
+                flex-direction: column;
+                text-align: center;
+            }
+            .biodata img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TENTANG DHYNO</h1>
+    </header>
+
+    <div class="container">
+        <div class="biodata">
+            <img src="fotoalmetdhyno.jpg" alt="Foto Yulian">
+            <div class="info">
+                <p>
+                    Masuk ke jurusan <b>Sistem Informasi</b> membuat saya banyak belajar hal baru tentang teknologi dan penerapannya di dunia nyata.
+                    Walaupun awalnya terasa sulit, saya merasa tertantang untuk terus memahami bagaimana sistem bekerja di balik layar.
+                    Saya yakin bahwa ilmu ini sangat bermanfaat untuk masa depan, terutama di era digital yang terus berkembang pesat.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Seva Dhyno Fazriansyah | Sistem Informasi | Desain oleh VSCode</p>
+    </footer>
+</body>
+</html>

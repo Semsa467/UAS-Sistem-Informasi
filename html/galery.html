@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Dhyno</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0a0f29, #1e3c72, #2a5298);
+            margin: 0;
+            padding: 0;
+            color: #f0f0f0;
+            text-align: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.05);
+            border-bottom: 2px solid #f1c40f;
+            color: #f1c40f;
+            padding: 25px 10px;
+            backdrop-filter: blur(10px);
+            text-shadow: 0 0 8px rgba(241, 196, 15, 0.6);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4em;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin: 25px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f1c40f;
+            font-weight: 600;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(241, 196, 15, 0.2);
+            box-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #f1c40f, transparent);
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(241, 196, 15, 0.4);
+        }
+
+        .card h2 {
+            color: #f1c40f;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            margin-top: 50px;
+            background: rgba(255, 255, 255, 0.05);
+            border-top: 2px solid #f1c40f;
+            color: #f1c40f;
+            padding: 15px;
+            font-size: 0.95em;
+            letter-spacing: 1px;
+            backdrop-filter: blur(8px);
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeri Mahasiswa</h1>
+    </header>
+
+    <!-- Menu Navigasi -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+    </nav>
+
+<section>
+       <h2>📷 Foto</h2>
+        <img src="Basketpiala.jpeg" width="300" alt="Foto Mahasiswa">
+    </section>
+
+    <section>
+       <h2>📷 Foto</h2>
+        <img src="SMA.jpeg" width="300" alt="Foto Mahasiswa">
+    </section>
+
+    <section>
+       <h2>📷 Foto</h2>
+        <img src="Pegangbola.jpeg" width="300" alt="Foto Mahasiswa">
+    </section>
+
+    <section>
+       <h2>📷 Foto</h2>
+        <img src="JAS.jpeg" width="300" alt="Foto Mahasiswa">
+    </section>
+
+    <section>
+       <h2>📷 Foto</h2>
+        <img src="ALUMNI.jpeg" width="300" alt="Foto Mahasiswa">
+    </section>
+
+    <footer>
+        <p>© 2025 Galeri Mahasiswa - Sistem Informasi</p>
+    </footer>
+</body>
+</html>
